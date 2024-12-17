@@ -7,7 +7,7 @@
     "test": "node src/tests/integration/authTests.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "abeselom solomon",
   "license": "ISC",
   "description": "",
   "dependencies": {
@@ -19,8 +19,12 @@
     "express-session": "^1.18.1",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.9.0",
+    "multer": "^1.4.5-lts.1",
     "passport": "^0.7.0",
-    "passport-local": "^1.0.0"
+    "passport-google-oauth20": "^2.0.0",
+    "passport-local": "^1.0.0",
+    "session-file-store": "^1.5.0",
+    "zod": "^3.24.1"
   },
   "devDependencies": {
     "nodemon": "^3.1.9"

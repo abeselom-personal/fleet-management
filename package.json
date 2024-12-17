@@ -1,6 +1,7 @@
 {
     "name": "fullstack-app",
     "version": "1.0.0",
+    "author": "abeselom solomon",
     "scripts": {
         "start": "concurrently \"npm run server\" \"npm run client\"",
         "server": "nodemon --prefix backend backend/server.js",
@@ -11,5 +12,7 @@
     },
     "devDependencies": {
         "concurrently": "^8.2.2"
+    },
+    "dependencies": {
     }
 }
